@@ -1,7 +1,8 @@
 # Getting Started
 
 ## **Step 1 :** Opening the Task Board
-Open Task Board using the Icon from the right side Ribbon Icon Bar.
+
+After you have installed the plugin properly, you will ablet to see a new Icon on the ribbon bar. Open Task Board using this Task Board Icon as shown in the below image.
 
 < Add a Image here >
 
@@ -9,6 +10,7 @@ You can also open the Task Board using the command `Open Task Board` from the Co
 Assign a shortcut to the command from the Hotkey tab from the settings pane for easy access.
 
 ## **Step 2 :** Scan tasks for first time
+
 Click on the Re-Scan Vault button. This will open the Scanning Pop-up window to scan tasks from all your files from the Vault.
 
 < Add a Image here, where on left show the button to press and on right of this image, show the Scan Modal >
@@ -21,9 +23,7 @@ Afterwards, use the [Scanning Filters]() from the main settings to only scan spe
 
 There are already two predefined board for your convenience as an example. Feel free to delete or edit the boards and create your own boards. Check out more informat on Board here : [Creating Boards]()
 
-
 **Enjoy the plugin !**
-
 
 ---
 [Previous - Home](README.md)

@@ -6,6 +6,7 @@ aliases:
 # **Task Board** plugin Documentation
 
 ## Topics
+
 - [01 - Installation](01-Installation.md)
 - [02 - Getting Started](02-GettingStarted.md)
 - [03 - Features](Features/README.md)
@@ -23,7 +24,7 @@ Understand the complete UI of Task Board from here : [Task Board Pane](./Feature
 
 ## **How Does it work ?**
 
-- This plugin scans tasks from all or the filtered Markdown file from your whole vault and show them on a Kanban type Board.
+- This plugin scans tasks from all or the [filtered](Features/Filters_for_Scanning.md) Markdown file from your whole vault and show them on a Kanban type Board.
 - You can edit the task directly from the Task Board, without opening the Markdown file.
 - Add task to currently opened files using a pop-up window.
 
