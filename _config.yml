@@ -5,6 +5,7 @@ description: This is an detailed docuemntation for the Task Board plugin of Obsi
 repository: https://github.com/tu2-atmanand/Task-Board-Docs
 github_username: tu2-atmanand
 site_branch: main
+remote_theme: pages-themes/architect@v0.2.0
 
 # Email and twitter are optional:
 email: sanketgauns8@gmail.com
@@ -12,6 +13,7 @@ twitter_username: tu2-atmanand
 
 plugins:
     - jekyll-relative-links
+    - jekyll-remote-theme
 relative_links:
     enabled: true
     collections: true
