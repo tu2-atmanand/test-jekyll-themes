@@ -1,6 +1,16 @@
-remote_theme: pages-themes/slate@v0.2.0
+version: 0.1.0
+name: Task Board Documentation
+title: Task Board Documentation
+description: |
+  This is an detailed docuemntation for the Task Board plugin of Obsidian.
+github_username: tu2-atmanand
+site_branch: main
+
+# Email and twitter are optional:
+email: sanketgauns8@gmail.com
+twitter_username: tu2-atmanand
+
 plugins:
-    - jekyll-remote-theme
     - jekyll-relative-links
   relative_links:
     enabled: true
