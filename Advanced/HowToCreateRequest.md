@@ -14,7 +14,7 @@ Follow the below steps to create a request :
 **Step 1 :** Head on to this website : [Task Board Requests]().
 
 **Step 2 :** You will see a green button called `New issue`, click on this button.
-![New Issue Button](NewIssueButton.png)
+![New Issue Button](../assets/NewIssueButton.png)
 
 **Step 3 :** Now for adding a title, write a short sentence. But you will have to add something at the start of this sentence based on the following criteria:
 
@@ -27,7 +27,7 @@ Follow the below steps to create a request :
 **Step 4 :** Next, elaborate your request properly inside the `Add a Description` section. You can add images or links to any documents.
 
 **Step 5 : (Optional)** If you want you can assign an label from the righ side section.
-![labelsForCreatingRequest](labelsForCreatingRequest.png)
+![labelsForCreatingRequest](../assets/labelsForCreatingRequest.png)
 
 **Step 6 :** Finally, submit your request using the `Submit new issue` button at the bottom.
 

@@ -2,6 +2,10 @@
 
 This plugin only works for a specific type of tasks, which are in a particular format.
 
+The following image will help you to understand the nomenclature to read this documentation efficiently and understand the parts of a Task.
+
+< Image >
+
 ## The Checkbox Patter
 
 Obsidian supports three types of pattern to create a checkbox or in other words a task item as shown below  :
@@ -20,6 +24,7 @@ So, if you want the plugin to not detect any of your task and consider the task 
 
 ## Sub Tasks
 
+To Create a subTasks for the main task, its is important that, there has to be atleast one Level indentation and there shouldnt be any empty lines between the main task or the task title and the sub-task.
 
 ## Task Description
 
