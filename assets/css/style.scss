@@ -3,21 +3,22 @@
 
 @import "{{ site.theme }}";
 * {
-    margin: 0 !important;
-    padding: 0 !important;
-    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Arial, sans-serif !important;
-    display: flex !important;
-    height: 100vh !important;
-    overflow: hidden !important;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .section {
     padding: 30px 100px 30px 80px !important;
-    margin-top: 0 !important;
+    margin-top: 0px !important;
+    width: auto !important;
 }
 
 .sidebar {
@@ -43,9 +44,10 @@ body {
 }
 
 .icon img {
-    width: 80% !important;
+    width: 40% !important;
     margin: 0 auto 10px !important;
     display: block !important;
+    z-index: 10 !important;
 }
 
 header h1 {
