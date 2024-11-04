@@ -17,8 +17,8 @@ prev_next_buttons_location: bottom
 search_enabled: true
 hljs_style: github-gist
 
-logo: "https://github.com/tu2-atmanand/task-board-docs/blob/main/assets/ColoringKanbanBoard.png"
-site_favicon: "https://github.com/tu2-atmanand/task-board-docs/blob/main/assets/images/favicon.ico"
+logo: "https://github.com/tu2-atmanand/task-board-docs/assets/ColoringKanbanBoard.png"
+site_favicon: "https://github.com/tu2-atmanand/task-board-docs/assets/images/favicon.ico"
 
 # Email and twitter are optional:
 email: sanketgauns8@gmail.com
