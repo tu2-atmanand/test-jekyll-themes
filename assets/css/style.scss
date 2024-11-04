@@ -1,7 +1,5 @@
 ---
 ---
-
-@import "{{ site.theme }}";
 * {
     margin: 0;
     padding: 0;
@@ -131,3 +129,5 @@ footer {
         display: none;
     }
 }
+
+@import "{{ site.theme }}";
