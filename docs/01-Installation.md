@@ -1,3 +1,8 @@
+---
+layout: default
+title: Installation
+---
+
 # Installation
 
 There are two ways you can install this plugin, either from the Official Obsidian Community Plugin Marketplace or directly downloading the source files from GitHub.

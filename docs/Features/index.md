@@ -1,3 +1,8 @@
+---
+layout: default
+title: Task Board Features
+---
+
 # Task Board Features
 
 ### Task Formats

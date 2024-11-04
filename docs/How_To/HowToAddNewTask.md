@@ -1,3 +1,8 @@
+---
+layout: default
+title: How to add New Task
+---
+
 # Add A New Task
 
 There are 2 ways at present to add a new task to the board.

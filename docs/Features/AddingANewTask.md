@@ -1,3 +1,8 @@
+---
+layout: default
+title: Adding a New Task
+---
+
 # Adding a New Task
 
 There are two way to add a new task.

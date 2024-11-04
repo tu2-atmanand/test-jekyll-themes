@@ -1,3 +1,8 @@
+---
+layout: default
+title: Auto Scanning
+---
+
 # Auto Scanning
 
 This feature helps you to detect the files you have modified and then scan them automatically to extract any new added task or the old task which you have edited.
