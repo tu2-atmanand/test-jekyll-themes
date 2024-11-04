@@ -1,6 +1,7 @@
---- --- @import "{{ site.theme }}";
+--- 
+--- 
 
-/*Reset some basic styling*/
+@import "{{ site.theme }}";
 * {
     margin: 0;
     padding: 0;
