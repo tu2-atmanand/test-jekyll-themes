@@ -1,15 +1,17 @@
-version: 0.1.0
+version: 0.1.1
 name: Task Board Documentation
 title: Task Board Documentation
-description: This is an detailed docuemntation for the Task Board plugin of Obsidian.
+description: This is an detailed documentation for the Task Board plugin of Obsidian.
 repository: https://github.com/tu2-atmanand/Task-Board-Docs
 github_username: tu2-atmanand
 site_branch: main
-remote_theme: pages-themes/architect@v0.2.0
+remote_theme: pages-themes/leap-day@v0.2.0
 
 # Email and twitter are optional:
 email: sanketgauns8@gmail.com
 twitter_username: tu2-atmanand
+
+favicon_path: /assets/images/favicon.ico
 
 plugins:
     - jekyll-relative-links
@@ -19,5 +21,3 @@ relative_links:
     collections: true
 include:
     - README.md
-    - 01-Installation.md
-    - 02-GettingStarted.md
