@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://code.jquery.com/jquery-3.3.0.min.js"
+        integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    {% include head-custom.html %}
+</head>
+
+<body>
+    <div class="sidebar">
+        <!-- Plugin Icon -->
+        <div class="icon">
+            <img src="{{ '/assets/images/kanban.png' | relative_url }}" alt="Task Board Icon">
+        </div>
+
+        <!-- Header Section -->
+        <header>
+            <h1>{{ site.title | default: site.github.repository_name }}</h1>
+            <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+        </header>
+
+        <!-- Table of Contents -->
+        <nav class="toc">
+            <ul>
+                <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li><a href="{{ '/01-Installation.html' | relative_url }}">Installation</a></li>
+                <li><a href="{{ '/02-GettingStarted.html' | relative_url }}">Getting Started</a></li>
+                {% assign categories = site.pages | group_by: "category" %}
+                {% for category in categories %}
+                <li class="folder">{{ category.name }}</li>
+                <ul class="nested">
+                    {% for page in category.items %}
+                    {% unless page.path == category.items[0].path %}
+                    <li><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></li>
+                    {% endunless %}
+                    {% endfor %}
+                </ul>
+                {% endfor %}
+            </ul>
+        </nav>
+
+        <!-- Footer Section -->
+        <footer>
+            <p><small>Hosted on GitHub Pages &mdash; Theme by <a
+                        href="https://twitter.com/mattgraham">mattgraham</a></small></p>
+            {% if site.github.is_project_page %}
+            <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+            {% endif %}
+        </footer>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="content">
+        <section>
+            {{ content }}
+        </section>
+    </div>
+</body>
+
+</html>

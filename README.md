@@ -1,3 +1,10 @@
+---
+category: /
+permalink: /
+title: Task Board** plugin Documentation
+---
+
+
 # **Task Board** plugin Documentation
 
 ## Topics
