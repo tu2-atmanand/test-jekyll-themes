@@ -16,7 +16,7 @@ After mentioning this you can directly start working on the issue by [creating a
 
 ### Main
 
-- This branch will only contain the code for publishing. Only the code from `pluginTesting` branch will be merged to main branch after thorogh testing as explained below.
+- This branch will only contain the code for publishing. This branch will only accept Pull request or merge request through `pluginTesting` branch. First a proper testing should be done in the pluginTesting branch to merge changes to main branch.
 
 ### pluginTesting
 
