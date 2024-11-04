@@ -6,6 +6,12 @@ This plugin will only detect and work with the checkbox items/tasks which are in
 
 Checkout in Details here : [Task Formats](Task_Formats.md)
 
+### Adding a Task
+
+There are two way you can add a task to the Task Board. First is the usual old method of directly writing down the task inside the markdown file. The second method is using a **Add New Task** Window to add different properties to the task using input elements to make the adding properties easy and ensuring the format comes properly.
+
+Checkout detailed information here : [Adding new Task](./AddingANewTask.md)
+
 ### Marking as Complete
 
 ![Marking Task as Complete](../assets/MarkTaskComplete.gif)
@@ -16,9 +22,11 @@ Checkout detailed information here : [Marking a task complete](MarkingTaskComple
 
 ### Editing a Task
 
+![Editing a Task from Board](../assets/EditTaskWindow.gif)
+
 Edit task directly from the Edit Task Window. You can add different properties to the task, add more subTask, add or edit description to the task. And the changes will be return to the parent markdown file exactly the way you see it in the preview.
 
-Checkout detailed information here : [Editing a task](EditingATask.md)
+Checkout detailed information here : [Editing a task](./EditingATask.md)
 
 ### Deleting a Task
 
@@ -31,12 +39,10 @@ The second type of filters, are [Board Filters](../How_To/HowToUseBoardSettings.
 
 A new type of filters are coming soon, called as Column Filters to filter out tasks under any column.
 
-
 ### Multi-Language Support
 
 The plugin currently supports more than 20 languages and new languages are planned to being  added in subsequent relases. Although a proper care has been taken to translate the default english language to other languages, the exact content meaning cannot be guarenteed, since online services has been used to translation.
 Your contribution for updating the current content in any language or adding a new language will be highly appreciated. It will be easy but a powerful step to make this plugin, accessible to many people. Read this doc to learn to contribute for Language Translation : [Contribute To Language Translation](../Advanced/Contribution_For_Languages.md).
-
 
 ### Re Scan Vault
 
