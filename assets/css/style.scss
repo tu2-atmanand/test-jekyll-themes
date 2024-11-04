@@ -1,111 +1,113 @@
---- --- @import "{{ site.theme }}";
+---
+---
 
-/*Reset some basic styling*/
+@import "{{ site.theme }}";
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    height: 100vh;
-    overflow: hidden;
+font-family: Arial, sans-serif;
+display: flex;
+height: 100vh;
+overflow: hidden;
 }
 
 .sidebar {
-    width: 10vw;
-    min-width: 200px;
-    background-color: #2a2a2a;
-    color: #f4f4f4;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 10px;
-    position: fixed;
-    height: 100%;
+width: 10vw;
+min-width: 200px;
+background-color: #2a2a2a;
+color: #f4f4f4;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 10px;
+position: fixed;
+height: 100%;
 }
 
 .icon img {
-    width: 80%;
-    margin: 0 auto 10px;
-    display: block;
+width: 80%;
+margin: 0 auto 10px;
+display: block;
 }
 
 header h1 {
-    font-size: 1.2em;
-    text-align: center;
-    margin-bottom: 10px;
+font-size: 1.2em;
+text-align: center;
+margin-bottom: 10px;
 }
 
 header p {
-    font-size: 0.9em;
-    text-align: center;
+font-size: 0.9em;
+text-align: center;
 }
 
 .toc ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+list-style: none;
+padding: 0;
+margin: 0;
 }
 
 .toc ul li a {
-    color: #f4f4f4;
-    text-decoration: none;
-    display: block;
-    padding: 5px 10px;
+color: #f4f4f4;
+text-decoration: none;
+display: block;
+padding: 5px 10px;
 }
 
 .folder {
-    font-weight: bold;
-    cursor: pointer;
-    padding: 5px 10px;
+font-weight: bold;
+cursor: pointer;
+padding: 5px 10px;
 }
 
 .folder:hover {
-    color: #c0c0c0;
+color: #c0c0c0;
 }
 
 .nested {
-    display: none;
-    padding-left: 15px;
+display: none;
+padding-left: 15px;
 }
 
 .folder.active+.nested {
-    display: block;
+display: block;
 }
 
 footer {
-    font-size: 0.8em;
-    text-align: center;
-    padding: 10px 0;
+font-size: 0.8em;
+text-align: center;
+padding: 10px 0;
 }
 
 /*Scrollable content area*/
 .content {
-    margin-left: 10vw;
-    width: 90vw;
-    overflow-y: auto;
-    padding: 20px;
+margin-left: 10vw;
+width: 90vw;
+overflow-y: auto;
+padding: 20px;
 }
 
 @media (max-width: 768px) {
-    .sidebar {
-        width: 80px;
-    }
+.sidebar {
+width: 80px;
+}
 
-    .content {
-        margin-left: 80px;
-        width: calc(100% - 80px);
-    }
+.content {
+margin-left: 80px;
+width: calc(100% - 80px);
+}
 
-    header h1,
-    header p {
-        display: none;
-    }
+header h1,
+header p {
+display: none;
+}
 
-    .icon img {
-        width: 100%;
-    }
+.icon img {
+width: 100%;
+}
 }
