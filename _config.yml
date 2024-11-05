@@ -5,7 +5,18 @@ description: This is an detailed documentation for the Task Board plugin of Obsi
 repository: https://github.com/tu2-atmanand/Task-Board-Docs
 github_username: tu2-atmanand
 site_branch: main
-remote_theme: pages-themes/tactile@v0.2.0
+# remote_theme: carlosperate/jekyll-theme-rtd
+theme: jekyll-theme-rtd
+
+# Theme settings:
+site_author: Atmanand Gauns
+repo_url: "https://github.com/tu2-atmanand/task-board-docs"
+edit_on_github: true
+github_docs_folder: true
+sticky_navigation: true
+prev_next_buttons_location: bottom
+search_enabled: true
+hljs_style: github-gist
 
 # Email and twitter are optional:
 email: sanketgauns8@gmail.com
@@ -15,7 +26,6 @@ favicon_path: /assets/images/favicon.ico
 
 plugins:
     - jekyll-relative-links
-    - jekyll-remote-theme
 relative_links:
     enabled: true
     collections: true
